@@ -18,8 +18,7 @@
 
 
 .box1:hover{
-    /* width: 400px;
-    height: 400px; */
+    
     transform: scale(2, 2);
     box-shadow: 15px 10px 10px red;
     
@@ -42,7 +41,8 @@
     background-color:orange;
     animation-name: change;
     animation-duration: 4s;
-   animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    
 
 }
 
@@ -64,7 +64,12 @@
 
 
 .box3{
+    display: inline-block;
+    margin: auto;
     border: 2px solid navy;
+    width: 500px;
+    height: 200px;
+    margin-left:  300px;
 }
 
 
@@ -92,13 +97,12 @@
 
 
 .raibow{
-
-    margin: 50px auto;
-    width: 400px;
-    height: 400px;
+    margin-left:  300px;
+    display: inline-block;
     border-radius: 50%;
     animation-name: rotation;
-    animation-duration: 5s;
+    animation-duration: 1s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
